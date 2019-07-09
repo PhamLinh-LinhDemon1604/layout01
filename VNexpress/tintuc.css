@@ -408,10 +408,13 @@ img {
 }
 .list_title {
   float: left;
+  max-height: 200px;
+    overflow-y: auto;
 }
 .tin-15{
     border-bottom: 1px dotted rgb(164, 203, 235);
     margin-top: 3px;
+    
 }
 .box_mostview .list_title li a {
   font: 400 14px arial;
