@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+a,ul,li {
+    list-style-type: none;
+    text-decoration: none;
+}
+#taskbar {
+    background-color: #eee;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 11px;
+    position: relative;
+}
+#taskbar .myvne_container {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#taskbar .myvne_contact {
+    float: left;
+    color: #666;
+    font-size: 12px;
+}
+
+#taskbar ul {
+    height: 29px;
+}
+#taskbar ul li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+#taskbar ul li {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 29px;
+    padding: 0 5px;
+    border-left: 1px solid #ccc;
+}
+
+#taskbar .myvne_form_log {
+    float: right;
+    font-size: 12px;
+}
+
+#taskbar ul {
+    height: 29px;
+}
+#taskbar.myvne_taskbar_v2 ul.myvne_form_log li {
+    border-left: none;
+    line-height: 25px;
+}
+#taskbar.myvne_taskbar_v2 .block_search_web {
+    width: 195px;
+}
+#taskbar ul li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+#taskbar .block_search_web {
+    padding-right: 4px;
+    width: 176px;
+}
+#taskbar .myvne_form_log .myvne_user {
+    position: relative;
+}
+#taskbar.myvne_taskbar_v2 ul.myvne_form_log li.myvne_notification {
+    line-height: 29px !important;
+}
+#taskbar.myvne_taskbar_v2 ul.myvne_form_log li:last-child {
+    padding-right: 0;
+}
+
+#taskbar.myvne_taskbar_v2 ul.myvne_form_log li {
+    border-left: none;
+    line-height: 25px;
+}
+#taskbar .myvne_notification {
+    position: relative;
+    cursor: pointer;
+}
+#taskbar.myvne_taskbar_v2 ul.myvne_form_log li a.myvne_link_create {
+    background: #9F224E;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0 15px;
+    line-height: 25px;
+}
+
+#taskbar ul li a {
+    font-size: 12px;
+    display: inline-block;
+    color: #666;
+}
+#search{
+    padding: 2px;
+}
+#search input{
+    height: 20px;
+    position: relative;
+}
+#search button{
+    height: 23px;
+    width: 20px;;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 370px;
+}
+
+.logo{
+    margin: 20px;
+    margin-left: 140px;
+}
+/* phan breadcrumb */
+.breadcrumd{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #bdc3c7;
+    text-align: left;
+  }
+  .breadcrumd_item{
+    display: inline-block;
+    padding-right: 3px;
+    position: relative;
+  }
+  .breadcrumd_item a{
+    display: block;
+    padding: 10px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .breadcrumd_item:after{
+  display: block;
+  content: "|";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  right: 0;
+  }
+  .breadcrumd_item:last-child{
+    padding-right: 0;
+  }
+  .breadcrumd_item:last-child:after{
+    display: none;
+  }
+/* maincontent */
+.maincontent{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  .col-70 {
+    width: 70%;
+  }
+  .col-30 {
+    width: 29.6%;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+    max-height: 400px;
+      overflow-y: auto;
+  }
+  .col-30 li{
+      border-top: 1px dotted #bdc3c7;
+      padding: 0 5px;
+  }
+
+  .col-40{
+      width: 40%;
+  }
+  .col-20{
+      width: 20%;
+  }
+
+  .col-40 img{
+      width: 100px;
+      height: 80px;
+  }
+  .col-40 img{
+    float: left;
+    padding-right: 5px;
+  }
+  .content-40{
+      border-bottom: 1px dotted #bdc3c7;
+  }
+  /* .content-40 p{
+      margin-top: 10px;
+  } */
+  .center-40{
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+  }
+/* footer */
+.footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-top{
+    height: 150px;
+    background: #8da3ee;
+}
+.footer-mid .top-footer{
+    background: #f4f4f4;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    height: 29px;
+    line-height: 29px;
+    width: 100%;
+    overflow: hidden;
+}
+.footer-mid .top-footer a:first-child{
+    padding-left: 18px;
+    font-weight: bold;
+}
+.footer-mid .top-footer a{
+    font: 400 12px/29px arial;
+    color: #666;
+    padding: 0 10px;
+}
+
+.footer-mid .search{
+    margin-left: 75%
+}
+.footer-mid .link-tw{
+    border-left: 1px solid #dedede;
+    margin-right: 20px;
+}
+.footer-mid .row-menu{
+    background: #f4f4f4;
+    border-top: 1px solid #fff;
+    float: left;
+    width: 100%;
+}
+.footer-mid .row-menu ul{
+    width: 120px;
+    float: left;
+}
+.footer-mid .row-menu .parent{
+    font: bold 12px/20px arial;
+    height: 20px;
+    margin: 0 0 10px;
+}
+.footer-mid .row-menu .parent h6{
+    font: bold 12px/20px arial;
+    height: 20px;
+    margin: 0 0 10px;
+}
+.footer-mid .row-menu .vne_app{
+    width: 19.5%;
+    color: #666;
+    margin-left: 50px;
+    float: left;
+}
+.footer-mid .row_menu .vne_app .tab_app a.active, footer .row_menu .vne_app .tab_app .pagination a:hover, .pagination footer .row_menu .vne_app .tab_app a:hover {
+    border: 1px solid #dfdfdf;
+    border-bottom: 0;
+}
+.footer-mid .row_menu .vne_app .tab_app a {
+    position: relative;
+    color: #333333;
+    border: 1px solid #f4f4f4;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px 4px 10px 26px;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.footer-mid .row_menu .vne_app .tab_app {
+    font-size: 0;
+}
+.footer-mid .row_menu .vne_app .link_app {
+    width: 55%;
+    float: left;
+}
+.footer-mid .row_menu .vne_app .qr_code {
+    float: right;
+    width: 45%;
+}
+.footer-mid .row_menu .vne_app .link_app a {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.footer-bottom{
+    padding: 3px 0;
+}
+.content-ft{
+    float: left;
+}
+.footer-left{
+    margin-left: 30px;
+}
+.footer-right{
+    float: right;
+    text-align: right;
+}
+.footer a{
+    color: #8da3ee;
+    margin-left: 20px;
+}
+.footer p{
+    font-size: 15px;
+}
